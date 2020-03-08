@@ -1,0 +1,53 @@
+May 19, 2000
+ ù  Screenshot now saves BMPs instead of RAWs (still saves PCXs in 8 bit mode)
+ ù  Fixed lucent blit.  Also implemented color addition/subtraction (only
+    fixed level so far)
+
+May 20, 2000
+ ù  Started converting the opaque blits to ASM (a little faster, 'sides
+    I need the practice ^_^)
+ ù  Added support for v2+i VSPs (15bit uncompressed)
+ ù  Player now turns whether the tile is obstructed or not.
+ ù  Key bindings weren't working for some reason.  (aen in the middle of
+    something?)  Fixed it
+
+May 21, 2000
+ ù  Fixed a bug in the entity activation code.
+
+June 1, 2000
+ ù  PaletteMorph emulation in hicolor mode implemented.  No bugs apparent.
+
+June 4, 2000
+ ù  Fixed the "off by one" error with fseekline.  Not really an error, but it
+     caused incompatibility with V2.
+
+June 7, 2000
+ ù  Added support for Version 5 VSPs (16bit compressed)  15bit adjustment
+     routines not tested yet, though.
+
+July 10, 2000
+ ù  Version 4 CHRs implemented.  15bit adjustment stuff not tested either. :P
+
+August 3, 2000
+ ù  Fixed the "S X" thing in the render string.  Works now.
+
+September 21, 2000
+ ù  Got the VCC source from aen! whoohoo!
+ ù  Implemented "bitdepth" (returns the colour depth)
+
+September 24, 2000
+ ù  Discovered that entities with a speed of 0 don't move.  (did I do that,
+    or was it aen?)
+
+September 30, 2000
+ ù  Added sqrt, fwritebyte, fwriteword, and fwritequad.
+ ù  Fixed a funky little bug that had to do with the keys not being updated
+    correctly.
+ ù  Fixed some funky things that were happening with entities. (specframe was
+    disabled, and so were entity speeds greater than 4)
+
+September 31, 2000
+ ù  Implemented table based (variable) lucency.  Mode 2 is variable lucency,
+    5 is variable addition, and 6 is variable subtraction.  The "variableness"
+    is set by invoking the new function, CalcLucent(level), where level is
+    the level of translucency.

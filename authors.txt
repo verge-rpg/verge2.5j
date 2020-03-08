@@ -1,0 +1,15 @@
+VERGE 2.5+j (AKA V2k+j) -  A video game creation engine
+Copyright (C) 1998-2000 these people:
+
+V2 Core Development Team:
+Benjamin "BJ" Eirich (AKA vecna)
+Charles Rector (AKA aen)
+Mathew Gambrell (AKA zeromus)
+Richard Lau (AKA ric)
+
+Additional Contributors:
+Nicholas Vining (AKA Mordred)
+Joe Osburn (AKA loretian)
+
+V2k+j enhancments:
+Andy Friesen (AKA the_Speed_Bump)

@@ -1,0 +1,48 @@
+
+---------- A_MEMORY.CC
+
+---------- CONSOLE.CC
+
+---------- ENGINE.CC
+
+---------- ENTITY.CC
+
+---------- FLI.CC
+
+---------- FONT.CC
+
+---------- IMAGE.CC
+
+---------- LINKED.CC
+
+---------- MEMSTR.CC
+
+---------- MESSAGE.CC
+
+---------- MIKMOD.CC
+
+---------- RENDER.CC
+
+---------- SOUND.CC
+
+---------- STR.CC
+
+---------- VC.CC
+	#define NEW_LOCALS
+#ifdef NEW_LOCALS // *****
+#endif // !def NEW_LOCALS
+	#ifdef NEW_LOCALS
+	#ifdef NEW_LOCALS
+		#ifdef NEW_LOCALS
+		#ifdef NEW_LOCALS
+#if !defined(NEW_LOCALS) // *****
+#endif // !def NEW_LOCALS
+#ifdef NEW_LOCALS // *****
+#ifdef NEW_LOCALS // *****
+		#ifdef NEW_LOCALS
+#ifdef NEW_LOCALS // *****
+#ifdef NEW_LOCALS // *****
+
+---------- VERGE.CC
+
+---------- VFILE.CC

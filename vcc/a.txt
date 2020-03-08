@@ -1,0 +1,31 @@
+
+---------- VCC.CPP
+
+---------- FUNCLIB.CPP
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+
+---------- COMPILE.CPP
+string_t*	find_str;
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+		EmitW((short)find_str->vsofs);
+
+---------- LEXICAL.CPP
+		find_str=0;
+				find_str=s;
+
+---------- PREPROC.CPP
+
+---------- LINKED.CPP
+
+---------- TOKENIZE.CPP
+
+---------- MEMSTR.CPP
+
+---------- STR.CPP

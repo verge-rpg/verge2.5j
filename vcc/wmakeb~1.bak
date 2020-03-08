@@ -1,0 +1,5 @@
+@echo off
+wcl386 /bt=dos /l=dos4g /oneatx /wx /fe=wat\vcc.exe vcc memstr str lexical compile funclib linked preproc > outp
+rem if not exist wat\vcc.exe goto end
+rem if exist ..\pmwlite.exe pmwlite /c4 wat\vcc.exe
+rem :end
